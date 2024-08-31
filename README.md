@@ -1,22 +1,20 @@
-# Title
+# LED SWITCH
 
-![Project Preview](assets/preview.jpg)
+![Project Preview](assets/preview.png)
 
 ## Project Description
 
-Description here! lorem ipsum dolor 
+This Arduino project demonstrates a simple LED toggle switch controlled by a button. The LED, connected to pin 6 of the Arduino, alternates between ON and OFF states each time the button, connected to pin 5, is pressed. The code uses digitalRead to check the button's state and toggles the LED accordingly. When the button is pressed, the swap() function updates the LED state from ON to OFF or vice versa, creating a simple yet effective way to control an LED with a button press. 
 
 ## Components
 
 - Arduino Uno
-- 
-- 
-- 
-- 
-
+- ( 2 ) Resistor
+- LED
+- Push button
+- Breadboard
 
 > Project Status: concluded
-
 
 ## Installation Guide
 
@@ -45,7 +43,7 @@ To clone this repository to your local machine, follow these steps:
 2. **Clone Repository**: Use the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
+   git clone https://github.com/HenriqueMelo2007/led-switch.git
 
 
 ## License
